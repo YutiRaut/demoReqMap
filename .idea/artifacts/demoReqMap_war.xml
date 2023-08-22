@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demoReqMap:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demoReqMap</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demoReqMap-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demoReqMap:war exploded" />
+    </root>
+  </artifact>
+</component>
